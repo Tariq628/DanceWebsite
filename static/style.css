@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: white;
+    /* justify-content: center; */
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 35px;
+}
+#logo img{
+    height: 32px;
+    filter: invert(2);
+}
+#logo h4{
+    /* margin-bottom: 17px; */
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    background-color:  rgb(229 60 60);
+    padding: 10px 14px;
+    font-family: 'Bangers', cursive;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* flex-direction: row; */
+    /* padding-top: 10px; */
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 1.3em;
+}
+#navbar li a:hover{
+    color: black;
+}
+#navbar li{
+    list-style: none;
+}
+#introsection{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 400px;
+    background-color: rgb(165, 102, 102);
+    background: url('./static/bg.jpg') no-repeat center center/cover;
+    /* * opacity: 0.7; *   */
+
+
+}
+#introsection div{
+    font-size: 50px;
+}
+#introsection div.small{
+    font-size: 40px;
+    padding: 5px;
+}
+#missionsection{
+    display: flex;
+    justify-content: center;
+    height: 290px;
+    background-color: rgb(250, 250, 250);
+}
+#missionsection .card{
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 230px;
+    /* display: flex; */
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 22%;
+    margin: 27px 27px 0px 27px;
+}
+#missionsection .card h4{
+    font-family: 'Oleo Script', cursive;
+    text-align: center;
+    padding-top: 5px;
+}
+#missionsection .other{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+#missionsection .other{
+    position: relative;
+    top: 10px;
+
+}
+
+#missionsection .card img{
+    margin: 20px;
+    height: 105px;
+}
+#missionsection .card p{
+    /* padding: 15px; */
+}
+
+
+
+
+.heading{
+    font-family: 'Patua One', cursive;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 1.7rem;
+}
+#sponsersection{
+    padding-top: 5px;
+    width: 100vw;
+    height: 300px;
+    background-color: rgb(220, 243, 220);
+}
+#sponsersection h1{
+    font-family: 'Patua One', cursive;
+    text-align: center;
+    padding-top: 13px;
+    font-size: 1.7rem;
+}
+#sponsers{
+    height: 170px;
+    max-width: 55vw;
+    margin: 23px auto;
+}
+.spimage{
+    height: 80%;
+    margin: 30px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 50px;
+    background-color: black;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
